@@ -1,0 +1,11 @@
+{
+	"version": 2,
+	"public": false,
+	"name": "next-now-test",
+	"builds": [{ "src": "package.json", "use": "@now/next" }],
+	"build": {
+		"env": {
+			"SHOP_SLUG": "beatdown"
+		}
+	}
+}

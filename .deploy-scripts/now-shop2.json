@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "public": false,
+  "name": "next-now-test-shop2",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next"
+    }
+  ],
+  "build": {
+    "env": {
+      "SHOP_SLUG": "shop2"
+    }
+  },
+  "regions": [
+    "all"
+  ],
+  "alias": [
+    "shop2.com"
+  ]
+}
